@@ -530,3 +530,36 @@ Contact
     width: 50%;
   }
 }
+
+/* 
+=====================
+footer
+=====================
+*/
+
+.footer {
+  background-color: #222;
+  text-align: center;
+}
+
+.social-icon {
+  color: var(--clr-white);
+  font-size: 1.5rem;
+  transition: var(--transition);
+  margin-right: 1rem;
+}
+
+.social-icon:hover {
+  color: var(--clr-primary);
+}
+
+.footer-text {
+  margin-top: 1.25rem;
+  text-transform: uppercase;
+  color: var(--clr-white);
+  font-weight: 400;
+}
+
+.company {
+  color: var(--clr-primary);
+}
